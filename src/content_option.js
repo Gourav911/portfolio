@@ -5,23 +5,22 @@ const meta = {
 };
 
 const introdata = {
-    title: "Hi, I'm {Your Name}",
+    title: "Hi, I'm Gourav Mahindra",
     animated: {
-        first: "Technologist",
+        first: "Web Developer",
         second: "Visionary",
-        third: "Ethical Hacker",
+        third: "Technologist",
         fourth: "Programmer",
-        fifth: "Malware Developer",
-        sixth: "Analyst",
+   
         // add more if you'd like but make sure to update /src/pages/home/index.js Line 29
     },
-    description: "Dedicated technology enthusiast with an insatiable curiosity for unraveling the complexities of our digital world.",
+    description: "Dedicated web developer skilled in front-end, back-end, APIs, eager to contribute and continuously learn.",
     your_img_url: "https://i.ibb.co/wRjcnGL/me.jpg",
 };
 
 const dataabout = {
     title: "Who am I?",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    aboutme: "I am a passionate web developer skilled in front-end and back-end technologies, API integration, and project management, eager to contribute to a dynamic organization that values innovation, collaboration, and continuous learning.",
 };
 const worktimeline = [{
         jobtitle: "Example 1",
@@ -41,31 +40,31 @@ const worktimeline = [{
 ];
 
 const skills = [{
+        name: "React.js",
+    },
+    
+    {
+        name: "Redux",
+    },
+    
+    {
+        name: "PHP",
+    },
+    
+    {
+        name: "Mysql",
+    },
+
+    {
+        name: "HTML,CSS",
+    },
+
+    {
+        name: "Javascript",
+    },
+
+    {
         name: "Python",
-    },
-    
-    {
-        name: "C",
-    },
-    
-    {
-        name: "Java",
-    },
-    
-    {
-        name: "Bash",
-    },
-
-    {
-        name: "Powershell",
-    },
-
-    {
-        name: "Reverse Engineering",
-    },
-
-    {
-        name: "Web-Exploitation",
     },
 
     {
@@ -137,7 +136,7 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "test@test.com",
+    YOUR_EMAIL: "gouravmahindra313@gmail.com",
     description: "Looking forward to hearing from you!",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
@@ -148,7 +147,7 @@ const contactConfig = {
 
 const socialprofils = {
     github: "https://github.com/",
-    linkedin: "https://linkedin.com/",
+    linkedin: "https://www.linkedin.com/in/gourav-mahindra",
 };
 export {
     meta,
