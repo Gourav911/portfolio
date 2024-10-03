@@ -1,4 +1,5 @@
 {
+    "homepage": "https://Gourav911.github.io/portfolio",
     "name": "react-portfolio",
     "version": "0.1.0",
     "private": true,
@@ -17,12 +18,13 @@
         "web-vitals": "^3.1.1"
     },
     "scripts": {
+     
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
-        "predeploy": "yarn build && cp build/index.html build/404.html",
-        "deploy": "gh-pages -d build"
+       "predeploy": "npm run build",
+    "deploy": "gh-pages -d build" 
     },
     "eslintConfig": {
         "extends": [
@@ -41,5 +43,8 @@
             "last 1 firefox version",
             "last 1 safari version"
         ]
+    },
+    "devDependencies": {
+        "gh-pages": "^6.1.1"
     }
 }
